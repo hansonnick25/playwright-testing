@@ -1,7 +1,16 @@
 node_modules/
-/test-results/
+.env
+.production.env
+.DS_Store
+
+
+# Application specific gitignore
+###################################################################
+
+# Generated files and directories
+tests/assertions.spec.ts-snapshots/
 /playwright-report/
 /playwright/.cache/
 /test-results/
-/playwright-report/
-/playwright/.cache/
+videos/
+storage-state.json

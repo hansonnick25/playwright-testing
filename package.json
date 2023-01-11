@@ -1,21 +1,24 @@
 {
-  "name": "playwrighttesting",
+  "name": "playwright-web-ui",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hansonnick25/PlaywrightTesting.git"
+  "scripts": {
+    "test:e2e": "npx playwright test",
+    "test:e2e:headed": "npx playwright test --headed",
+    "test:api": "npx playwright test api-demo.spec.ts",
+    "show-report": "npx playwright show-report",
+    "test:debug": "npx playwright test --debug"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hansonnick25/PlaywrightTesting/issues"
-  },
-  "homepage": "https://github.com/hansonnick25/PlaywrightTesting#readme",
   "devDependencies": {
-    "@playwright/test": "^1.28.1"
+    "@playwright/test": "^1.28.1",
+    "playwright": "^1.28.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "typescript": "^4.8.4"
   }
 }

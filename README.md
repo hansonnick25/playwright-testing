@@ -1,4 +1,4 @@
-# PlaywrightTesting# oci-test-automation-webapp-ui-playwright
+# PlaywrightTesting #
 
 To install, open a Terminal and navigate to the directory where you cloned this repository.  Once there, run the following command:
 
